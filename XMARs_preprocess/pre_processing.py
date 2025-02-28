@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from image_handle import *
+from .image_handle import *
 
 def dataset_normalized(imgs):
     assert (len(imgs.shape) == 4)
